@@ -53,6 +53,10 @@ dependencies {
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_viewmodels"
     kapt "androidx.hilt:hilt-compiler:$hilt_viewmodels"
 
+    def retrofit = "2.6.0"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+
 }
 
 kapt {
